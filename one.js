@@ -18,7 +18,7 @@ function myFunction(){
   document.getElementById("box") .style.background = "red";
 }
 
-
+myFunction;
 
 
 // function declarations
