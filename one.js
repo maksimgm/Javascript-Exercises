@@ -12,13 +12,20 @@
 //}
 
 //myFirstFunction( 100, 'cooking');
-box.onclick = myFunction;
+ // box.onclick = myFunction;
 
-function myFunction(){
-  document.getElementById("box") .style.background = "red";
-}
+ // function myFunction(){
+ //   document.getElementById("box").style.background = "red";
+ // }
 
-myFunction;
+ // myFunction();
+
+var box = document.getElementById("box");
+box.onclick = function(){
+ box.style.background = 'green';
+};
+
+
 
 
 // function declarations
