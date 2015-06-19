@@ -19,15 +19,17 @@
 //myFunction;
 
 
-text.onclick = myFunction;
 
 function myFunction() {
-  //document.getElementById("text");
-  document.write("<p>Luke I am your father</p>");
+  document.getElementById("pox") .style.background = "green";
 }
 
-
-
-
-
 myFunction;
+
+
+
+/*if (document.onclick) {
+  getElementById("text").write = "yellow";
+} else{
+  getElementById("text").write = "black";
+}*/
