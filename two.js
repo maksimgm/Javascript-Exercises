@@ -18,14 +18,14 @@
 
 //myFunction;
 
+//text.onclick = myFunction;
 
+//function () {
+  //document.getElementById("text") .style.display = "Hello World";
+  
+//}
 
-function myFunction() {
-  document.getElementById("pox") .style.background = "green";
-}
-
-myFunction;
-
+//myFunction;
 
 
 /*if (document.onclick) {
@@ -33,3 +33,18 @@ myFunction;
 } else{
   getElementById("text").write = "black";
 }*/
+
+/*function add (text){
+  var myVar = document.getElementById("juice");
+  myVar.value = "hello world";
+}
+
+add;*/
+
+juice.onclick = myFirstFunction;
+
+function myFirstFunction(text){
+  document.getElementById("juice").style.display = "Hello World";
+}
+
+myFirstFunction;
