@@ -1,5 +1,7 @@
-var magic = document.getElementById("magic")
+var magic = document.getElementById("magic");
 
-function () {
-  magic.innerHTML = magic.replace('and', 'dog');
+function myFunction() {
+  magic.innerHTML = magic.innerHTML.replace('and', 'dog');
 }
+
+myFunction();
