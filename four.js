@@ -1,8 +1,9 @@
-var wrapper = document.getElementById("wrapper")
+var two = document.getElementById("two");
 
-wrapper.onload = function myFunction() {
+document.onload = function myFunction() {
   var p = document.createElement("p");
   var t = document.createTextNode("I am the superior text");
   p.appendChild(t);
-  document.body.appendChild(p);
-}
+  document.getElementById("p");
+  document.two= p;
+};
