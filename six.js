@@ -1,6 +1,3 @@
-for ( var i = 10 ; i < 101 ; i++ ){
+for (var i = 10; i < 91; i++){
   document.write(i + "<br>");
-  if ( i == 101) {
-    break;
-  }
 }
