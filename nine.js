@@ -5,12 +5,16 @@ strValues[2] = "hockey";
 strValues[3] = "swimming";
 strValues[4] = "soccer";
 strValues[5] = "tennis";
-strValues[6] = "ball";
+strValues[6] = "teeball";
 
 var longestWord = [i];
 
 for (var i = 0; i < strValues.length; i++) {
   console.log(strValues[i].length);
+
+  if(strValues[i].length > longestWord.length) {
+    document.write();
+  }
 }
 
 
