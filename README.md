@@ -24,5 +24,5 @@ README
 
 10. Basic data types
 
-11. fizzbuzz
+11. Fizzbuzz
 
