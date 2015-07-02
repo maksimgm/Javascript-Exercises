@@ -3,15 +3,15 @@ for( var i = 1; i <= 100; i++ ) {
   var divisibleByFive = i % 5 === 0;
 
   if( divisibleByThree) {
-    document.write("fizz" + "<br>");
+    console.log("fizz");
   }
   if(divisibleByFive) {
-   document.write("buzz" + "<br>"); 
+   console.log("buzz"); 
   }
   if(divisibleByThree && divisibleByFive) {
-    document.write("fizzbuzz" + "<br>");
+    console.log("fizzbuzz");
   }
   else{
-    document.write(i + "<br>");
+    console.log(i);
   }
 }
