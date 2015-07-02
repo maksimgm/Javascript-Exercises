@@ -1,17 +1,11 @@
-var strValues = [];
-strValues[0] = "cricket";
-strValues[1] = "basketball";
-strValues[2] = "hockey";
-strValues[3] = "swimming";
-strValues[4] = "soccer";
-strValues[5] = "tennis";
-strValues[6] = "teeball";
+var str = ["cricket", "basketball", "hockey", "swimming", "soccer"];
 
 var longestWord = "";
 
-for(i = 0; i < StrValues.length; i++) {
-  (strValues[i] > longestWord.length);
+for(i = 0; i < str.length; i++) {
+  if (str[i] > longestWord.length); {
   console.log(longestWord);
+  }
 }
 
 /*var longestWord = "";
