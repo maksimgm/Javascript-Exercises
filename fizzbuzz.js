@@ -12,6 +12,6 @@ for( var i = 1; i <= 100; i++ ) {
     console.log("fizzbuzz");
   }
   else{
-    console.log(i);
+    console.log(!divisibleByThree && !divisibleByFive);
   }
 }
